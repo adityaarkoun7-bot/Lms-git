@@ -5,3 +5,6 @@ class LearningManagementSystem:
 
     def add_student(self, name):
         self.students.append(name)
+
+    def remove_student(self):
+        return self.students.pop()
